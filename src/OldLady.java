@@ -38,13 +38,10 @@ public class OldLady {
 		SpiderToFly();
 		Swallowed();
 		System.out.println("");
-
 		System.out.println("There was an old lady who swallowed a horse...");
 		System.out.println("She's dead, of course!");
-
 		
 	}
-		
 		
 		public static void Swallowed() {
 		System.out.println("I don't know why she swallowed a fly - ");
@@ -59,7 +56,6 @@ public class OldLady {
 		
 		public static void Oldlady() {
 		System.out.print("There was an old lady who swallowed a");
-		
 		}
 	
 		public static void SpiderToFly() {
