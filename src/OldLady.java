@@ -1,4 +1,17 @@
-
+/***
+ * Grading comments:
+ *  Nice job... but wow you did alot of typing!
+ *  The main concept with this lab was to reduce 
+ *  duplication of typing by using methods, and you
+ *  did that - but you could have done more.
+ *  Compiles/Runs 15/15 
+ *  Desired Output: 6/6
+ *  Consistency: 1/2:  It's important to keep your indentation and
+ *     naming conventions 'oldlady' vs 'oldLady' if 'spiderToFly'?
+ *  Efficiency:   1/2:  Good job - but you could have used some
+ *   nesting of methods and maybe cleaned up main with some more
+ *   verses methods that called your other methods.
+ */
 public class OldLady {
 
 	public static void main(String[] args) { 
@@ -43,7 +56,9 @@ public class OldLady {
 		
 	}
 		
+	// GC: Your methods shouldn't be so indented - they should line up with main.	
 		public static void swallowed() {
+		// GRADING: Indent me! --->
 		System.out.println("I don't know why she swallowed a fly - ");
 		System.out.println("Perhaps she'll die!");
 		
@@ -58,10 +73,11 @@ public class OldLady {
 		System.out.print("There was an old lady who swallowed a");
 		}
 	
+		// GC: This is good indentation!	
 		public static void spiderToFly() {
 			System.out.print("She swallowed the spider to catch the");
 			fly();
-		}
+		} // GC: but you didn't leave a space between methods here...
 		public static void birdToSpider() {
 		System.out.println("She swallowed the bird to catch the spider,");
 		}
